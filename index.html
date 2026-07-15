@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edukasi DTY | Politeknik Enjinering Indorama</title>
+  
+  <meta name="description" content="Portal edukasi proses manufaktur benang DTY hasil kolaborasi PEI dan PT Indorama Synthetics.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90">
+
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="myBar"></div>
+  </div>
+
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top modern-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+        <div class="brand-icon"><i class="bi bi-layers-half"></i></div>
+        <span>Unit DTY PEI</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <i class="bi bi-list fs-1 text-dark"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-medium">
+          <li class="nav-item mx-2"><a class="nav-link" href="#beranda">Beranda</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#profil">Profil Unit</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#proses">Alur Produksi</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#k3">Standar K3</a></li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a class="btn btn-modern px-4 py-2" href="#glosarium">Kamus Istilah</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="beranda" class="hero-section d-flex align-items-center">
+    <div class="container relative-z">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 hero-text-area reveal-left">
+          <div class="badge-modern mb-4">
+            <span class="dot-pulse"></span> Kolaborasi Pendidikan & Industri
+          </div>
+          <h1 class="display-3 fw-bold tracking-tight text-dark mb-4">
+            Rekayasa Benang <br>
+            <span class="text-gradient">Draw Textured Yarn</span>
+          </h1>
+          <p class="lead text-secondary mb-5 pe-lg-4 lh-base">
+            Platform edukasi digital yang mengupas tuntas operasional industri tekstil modern. Temukan bagaimana benang POY diproses secara berkesinambungan menjadi benang DTY, dilengkapi dengan parameter pengujian mutu, hingga implementasi keselamatan kerja komprehensif.
+          </p>
+          
+          <div class="d-flex flex-wrap gap-4 mb-5 stats-wrapper">
+            <div>
+              <h3 class="fw-bolder text-dark mb-0">3 Ton</h3>
+              <p class="text-muted small text-uppercase tracking-wider">Output Harian</p>
+            </div>
+            <div class="divider-vertical"></div>
+            <div>
+              <h3 class="fw-bolder text-dark mb-0">24 Jam</h3>
+              <p class="text-muted small text-uppercase tracking-wider">Siklus Nonstop</p>
+            </div>
+            <div class="divider-vertical"></div>
+            <div>
+              <h3 class="fw-bolder text-dark mb-0">2013</h3>
+              <p class="text-muted small text-uppercase tracking-wider">Tahun Didirikan</p>
+            </div>
+          </div>
+          
+          <a href="#proses" class="btn btn-modern btn-lg px-5 shadow-lg">Mulai Eksplorasi <i class="bi bi-arrow-right ms-2"></i></a>
+        </div>
+        <div class="col-lg-6 reveal-right">
+          <div class="hero-image-wrapper">
+            <img src="DTY.jpg" class="img-fluid hero-img" alt="Benang DTY Beranda">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+  </section>
+
+  <section id="profil" class="py-section bg-surface">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal-up">
+          <div class="image-grid">
+            <img src="PEI.jpg" alt="Gedung Indorama" class="img-grid-1 shadow-lg">
+            <div class="experience-badge shadow-lg">
+              <span class="fs-2 fw-bold text-white">PEI</span>
+              <span class="small text-white opacity-75">Indorama Synthetics</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 ps-lg-5 reveal-up" style="transition-delay: 0.2s;">
+          <h6 class="text-uppercase tracking-wider text-primary fw-bold mb-2">Profil Fasilitas</h6>
+          <h2 class="display-5 fw-bold mb-4 text-dark">Pusat Integrasi Vokasi dan Industri Nyata</h2>
+          <p class="fs-5 text-secondary mb-4 lh-base">
+            Dibangun seiring dengan peresmian Politeknik Enjinering Indorama pada tahun 2013, unit produksi DTY ini berperan sebagai Vocational Training Center berkat kemitraannya dengan PT Indorama Synthetics Tbk.
+          </p>
+          <p class="text-muted mb-4">
+            Kehadiran unit ini difokuskan sebagai ruang pelatihan dan praktik riil bagi mahasiswa untuk mengelola sistem industri tekstil modern. Di lapangan, mahasiswa dihadapkan langsung pada operasional mesin otomatis buatan Jepang (Murata), analisis kualitas dan grading produk, serta penegakan protokol keselamatan (K3) level internasional.
+          </p>
+          <div class="p-4 bg-primary bg-opacity-10 rounded-4 border-start border-4 border-primary">
+            <p class="mb-0 text-dark fw-medium">
+              <i class="bi bi-info-circle-fill text-primary me-2"></i>Beroperasi di luar fase pemeliharaan selama 24 jam penuh, mencetak rata-rata 3 ton benang bertekstur yang didistribusikan luas untuk memenuhi kebutuhan pabrik tenun dan rajut.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proses" class="py-section">
+    <div class="container">
+      <div class="text-center mb-6 reveal-up">
+        <h6 class="text-uppercase tracking-wider text-primary fw-bold mb-2">Siklus Manufaktur</h6>
+        <h2 class="display-5 fw-bold text-dark">8 Tahapan Transformasi DTY</h2>
+        <p class="text-secondary col-lg-6 mx-auto mt-3">Protokol pengolahan berjenjang yang diintegrasikan dengan pengawasan suhu, tarikan, dan mutu di setiap titik produksi.</p>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 order-md-1 order-2">
+          <div class="step-content pe-md-4">
+            <div class="step-number">01</div>
+            <h3 class="fw-bold text-dark mb-3">Persiapan Material (POY)</h3>
+            <p class="text-muted lh-lg mb-4">Siklus ini bermula dengan penyediaan material setengah jadi yang dinamakan benang POY (Partially Oriented Yarn). Serat mentah yang merupakan hasil keluaran dari area polimerisasi ini akan digunakan sebagai basis input pembuatan DTY.</p>
+            <div class="tech-note">
+              <i class="bi bi-cpu text-primary"></i>
+              <span><strong>Data Teknis:</strong> Benang poliester mentah ini harus melewati proses manufaktur tingkat lanjut karena karakteristik aslinya yang belum memiliki tekstur atau elastisitas sempurna untuk dijadikan bahan kain.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2 order-1 text-center">
+          <img src="MateriPOY.jpeg" class="img-fluid rounded-4 shadow-sm step-img" alt="Benang Mentah POY">
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 text-center">
+          <img src="Penarikan.jpeg" class="img-fluid rounded-4 shadow-sm step-img" alt="Fase Penarikan">
+        </div>
+        <div class="col-md-6">
+          <div class="step-content ps-md-4">
+            <div class="step-number">02</div>
+            <h3 class="fw-bold text-dark mb-3">Fase Penarikan (Drafting)</h3>
+            <p class="text-muted lh-lg mb-4">Dalam operasional mesin, spun yarn atau POY wajib melewati mekanisme penarikan. Tahapan ini secara instan memanipulasi spesifikasi bawaan POY, baik dari segi sifat lentur, ukuran diameter, hingga panjang filamen.</p>
+            <div class="tech-note">
+              <i class="bi bi-cpu text-primary"></i>
+              <span><strong>Data Teknis:</strong> Kualitas material yang sedang diproses di mesin texturising ini sepenuhnya berbanding lurus dengan besaran daya penarikan yang diaplikasikan pada serat benang tersebut.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 order-md-1 order-2">
+          <div class="step-content pe-md-4">
+            <div class="step-number">03</div>
+            <h3 class="fw-bold text-dark mb-3">Rekayasa Termal (Heating)</h3>
+            <p class="text-muted lh-lg mb-4">Area texturising mengandalkan dua zona suhu. Primary Heater (H1) bertugas melunakkan serat POY mentah agar mengembang (crimp & crinkle), sedangkan Secondary Heater (H2) berfungsi vital menstabilkan wujud benang pasca-ditarik.</p>
+            <div class="tech-note">
+              <i class="bi bi-cpu text-primary"></i>
+              <span><strong>Data Teknis:</strong> Pemanasan di H1 dapat menembus 186°C dan H2 sekitar 160°C. Suhu di H1 ini krusial karena merubah susunan kristal polimer, yang nantinya menentukan daya serap benang terhadap zat pewarna (dye ability).</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2 order-1 text-center">
+          <img src="Gambar/PemintalanBenangMesinMurata.jpg" class="img-fluid rounded-4 shadow-sm step-img" alt="Proses Mesin Murata">
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 text-center">
+           <img src="Gambar/PemantauMesinMurata.jpg" class="img-fluid rounded-4 shadow-sm step-img" alt="Layar Pemantau Mesin">
+        </div>
+        <div class="col-md-6">
+          <div class="step-content ps-md-4">
+            <div class="step-number">04</div>
+            <h3 class="fw-bold text-dark mb-3">Distorsi Mekanis (Twisting)</h3>
+            <p class="text-muted lh-lg mb-4">Pemuntiran (twisting) bekerja secara simultan bersama proses penarikan. Intervensi friksi ini sukses memberikan efek volume dan keriting permanen pada jalinan benang poliester.</p>
+            <div class="tech-note">
+              <i class="bi bi-cpu text-primary"></i>
+              <span><strong>Data Teknis:</strong> Ada berbagai instrumen untuk menciptakan puntiran (Belt, Spindle, Disk), namun komponen yang sering diaplikasikan untuk metode Friction twist umumnya dinamakan Positorq.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 order-md-1 order-2">
+          <div class="step-content pe-md-4">
+            <div class="step-number">05</div>
+            <h3 class="fw-bold text-dark mb-3">Mekanisme Penggulungan (Winding)</h3>
+            <p class="text-muted lh-lg mb-4">Langkah penutup dari aktivitas texturising di dalam mesin adalah penggulungan (winding). Benang yang kini resmi bertekstur DTY ditarik keluar secara terkomputerisasi menuju area penggulungan akhir.</p>
+            <div class="tech-note">
+              <i class="bi bi-cpu text-primary"></i>
+              <span><strong>Data Teknis:</strong> Kesempurnaan proses winding ini amat vital karena berimbas langsung pada kualitas bentuk gulungan fisik serta memengaruhi kemudahan proses penguraian (unwinding) di tahapan produksi pabrik kain.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2 order-1 text-center">
+          <div class="step-icon-box shadow-sm"><i class="bi bi-arrow-repeat"></i></div>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 text-center">
+          <div class="step-icon-box shadow-sm"><i class="bi bi-droplet-half"></i></div>
+        </div>
+        <div class="col-md-6">
+          <div class="step-content ps-md-4">
+            <div class="step-number">06</div>
+            <h3 class="fw-bold text-dark mb-3">Evaluasi Kelayakan (Uji Celup)</h3>
+            <p class="text-muted lh-lg mb-4">Sampel benang dikirim ke fasilitas pengujian mutu untuk memastikan kemampuan penyerapan zat pewarna merata tanpa indikasi cacat pudar atau belang. Hal ini berkaitan dengan keberhasilan pemanasan kristal polimer sebelumnya.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 order-md-1 order-2">
+          <div class="step-content pe-md-4">
+            <div class="step-number">07</div>
+            <h3 class="fw-bold text-dark mb-3">Sertifikasi Kelas (Grading)</h3>
+            <p class="text-muted lh-lg mb-4">Pasca evaluasi, faktor kualitas benang dipetakan ke dalam berbagai hierarki atau Grade berdasarkan parameter berat dan tingkat keutuhannya. Produk yang gagal memenuhi batas berat standar dipisahkan dari alur distribusi reguler.</p>
+            <div class="tech-note">
+              <i class="bi bi-cpu text-primary"></i>
+              <span><strong>Data Teknis:</strong> Kriteria kualitas DTY diklasifikasikan sebagai Grade WE (4700 gr - 5150 gr), Grade WA (1000 gr - 4699 gr), Grade B (500 gr - 999 gr), dan Grade C (250 gr - 499 gr).</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2 order-1 text-center">
+          <img src="SudahDiPacking.jpeg" class="img-fluid rounded-4 shadow-sm step-img" alt="Benang Sudah Di Packing">
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-center step-row reveal-up">
+        <div class="col-md-6 text-center">
+          <img src="Gambar/WhatsApp Image 2026-07-06 at 19.12.00.jpeg" class="img-fluid rounded-4 shadow-sm step-img" alt="Area Logistik Distribusi">
+        </div>
+        
+        <div class="col-md-6">
+          <div class="step-content ps-md-4">
+            <div class="step-number">08</div>
+            <h3 class="fw-bold text-dark mb-3">Distribusi Sektor Tekstil</h3>
+            <p class="text-muted lh-lg mb-4">Benang bertekstur (DTY) ini membanjiri industri manufaktur untuk difabrikasi menjadi pakaian, material penutup jok, hingga pembuatan tas. Permintaan benang ini sangat masif di sektor industri tenun maupun rajut.</p>
+            <div class="tech-note">
+              <i class="bi bi-cpu text-primary"></i>
+              <span><strong>Data Teknis:</strong> Pada aplikasi penenunan modern, DTY sering dimanfaatkan sebagai benang pakan (Filling Yarn). Profil teksturnya yang keriting sangat ringan diterbangkan oleh semburan air jet, menjadikannya opsi paling hemat konsumsi udara dibanding filamen rata.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="k3" class="py-section bg-dark text-white">
+    <div class="container py-4">
+      <div class="text-center mb-5 reveal-up">
+        <i class="bi bi-shield-fill-check text-success display-3 mb-3 d-block"></i>
+        <h2 class="fw-bold">Prioritas Keselamatan & Kesehatan Kerja (K3)</h2>
+        <p class="text-secondary col-lg-6 mx-auto">Kami mengadopsi standar operasional global untuk memastikan keamanan setiap individu, baik karyawan maupun mahasiswa yang berada di area pabrik.</p>
+      </div>
+      
+      <div class="row g-4 text-center text-md-start reveal-up">
+        <div class="col-md-4">
+          <div class="p-4 bg-secondary bg-opacity-25 rounded-4 h-100 border-top border-4 border-success">
+            <h5 class="fw-bold text-success"><i class="bi bi-person-fill-gear me-2"></i>Kewajiban APD</h5>
+            <p class="small text-light opacity-75 mt-2 lh-lg">Tidak ada yang diizinkan masuk tanpa perlengkapan lengkap: helm proyek, sepatu pelindung (safety shoes), peredam suara bising (ear plug), dan sarung tangan.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-secondary bg-opacity-25 rounded-4 h-100 border-top border-4 border-success">
+            <h5 class="fw-bold text-success"><i class="bi bi-journal-check me-2"></i>Edukasi Terjadwal</h5>
+            <p class="small text-light opacity-75 mt-2 lh-lg">Siswa magang dan staf diwajibkan mengikuti kelas orientasi K3 untuk memahami ragam potensi bahaya dan teknik merespon insiden kerja.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-secondary bg-opacity-25 rounded-4 h-100 border-top border-4 border-success">
+            <h5 class="fw-bold text-success"><i class="bi bi-megaphone-fill me-2"></i>Simulasi Darurat</h5>
+            <p class="small text-light opacity-75 mt-2 lh-lg">Pabrik secara rutin menggelar latihan evakuasi palsu. Hal ini melatih insting pekerja agar tidak panik saat terjadi keadaan darurat sungguhan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="glosarium" class="py-section bg-surface">
+    <div class="container">
+      <div class="text-center mb-6 reveal-up">
+        <h6 class="text-uppercase tracking-wider text-primary fw-bold mb-2">Terminologi</h6>
+        <h2 class="display-5 fw-bold text-dark">Kamus Industri Tekstil</h2>
+        <p class="text-secondary col-lg-6 mx-auto mt-3">Dekonstruksi istilah teknis manufaktur ke dalam penjelasan yang lebih transparan dan mudah dicerna.</p>
+      </div>
+
+      <div class="row justify-content-center reveal-up">
+        <div class="col-lg-8">
+          <div class="accordion modern-accordion" id="kamusTeknis">
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#k1">
+                  Klasifikasi Material Dasar
+                </button>
+              </h2>
+              <div id="k1" class="accordion-collapse collapse" data-bs-parent="#kamusTeknis">
+                <div class="accordion-body">
+                  <div class="term-box mb-3">
+                    <span class="badge bg-primary-subtle text-primary mb-2">POY (Partially Oriented Yarn)</span>
+                    <p class="text-muted small mb-0">Wujud benang setengah jadi yang dihasilkan oleh mesin polimerisasi. Karena kristalnya baru berorientasi sebagian, benang ini belum elastis.</p>
+                  </div>
+                  <div class="term-box">
+                    <span class="badge bg-primary-subtle text-primary mb-2">DTY (Draw Textured Yarn)</span>
+                    <p class="text-muted small mb-0">Inovasi benang hasil rekayasa peregangan (drawing) dan putaran (twisting). Bentuk akhirnya menjadi tebal, melar, dan memiliki kerut tekstur yang ideal untuk pakaian.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#k2">
+                  Metodologi Rekayasa Benang
+                </button>
+              </h2>
+              <div id="k2" class="accordion-collapse collapse" data-bs-parent="#kamusTeknis">
+                <div class="accordion-body">
+                  <div class="term-box mb-3">
+                    <span class="badge bg-primary-subtle text-primary mb-2">Drafting & Twisting</span>
+                    <p class="text-muted small mb-0">Teknik modifikasi simultan. Drafting berfungsi meregangkan panjang dan mengecilkan diameter serat. Sementara twisting (menggunakan alat seperti Positorq) melintir benang agar keriting.</p>
+                  </div>
+                  <div class="term-box">
+                    <span class="badge bg-primary-subtle text-primary mb-2">Primary & Secondary Heater</span>
+                    <p class="text-muted small mb-0">Dua bilik oven di dalam mesin texturising. Tungku pertama (H1) merombak kristal benang mentah untuk daya warna, sedangkan tungku kedua (H2) menurunkan ketegangan benang pasca dipuntir.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#k3">
+                  Sertifikasi & Kualitas Fisik
+                </button>
+              </h2>
+              <div id="k3" class="accordion-collapse collapse" data-bs-parent="#kamusTeknis">
+                <div class="accordion-body">
+                  <div class="term-box mb-3">
+                    <span class="badge bg-primary-subtle text-primary mb-2">Grading Mutu</span>
+                    <p class="text-muted small mb-0">Pemisahan kualitas gulungan berdasarkan standar berat pabrik (Grade WE, WA, B, hingga C).</p>
+                  </div>
+                  <div class="term-box mb-3">
+                    <span class="badge bg-primary-subtle text-primary mb-2">Denier</span>
+                    <p class="text-muted small mb-0">Unit ukur berat filamen; merepresentasikan berat 1 gram benang dengan panjang total membentang 9.000 meter.</p>
+                  </div>
+                  <div class="term-box">
+                    <span class="badge bg-primary-subtle text-primary mb-2">Broken Filament</span>
+                    <p class="text-muted small mb-0">Istilah kecacatan produk berupa benang yang terputus atau berbulu. Umumnya diakibatkan oleh pengaturan tarikan kecepatan (speed machine) yang meleset.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-secondary text-white py-5" style="background-color: #6c757d !important;">
+    <div class="container">
+      <div class="row g-4 text-start">
+        <div class="col-md-5">
+          <h4 class="fw-bold mb-3"><i class="bi bi-cpu-fill me-2"></i>Unit DTY PEI</h4>
+          <p class="small opacity-75 lh-base">Unit produksi Draw Textured Yarn (DTY) hasil kolaborasi Politeknik Enjinering Indorama (PEI) dan PT Indorama Synthetics sejak 2013. Menggabungkan dunia pendidikan vokasi dengan standar industri tekstil nyata.</p>
+        </div>
+        <div class="col-md-3 offset-md-1">
+          <h5 class="fw-bold mb-3">Navigasi</h5>
+          <ul class="list-unstyled small opacity-75 lh-lg">
+            <li><a href="#beranda" class="text-white text-decoration-none">Beranda</a></li>
+            <li><a href="#profil" class="text-white text-decoration-none">Profil Unit</a></li>
+            <li><a href="#proses" class="text-white text-decoration-none">Alur Produksi</a></li>
+            <li><a href="#glosarium" class="text-white text-decoration-none">Kamus Istilah</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="fw-bold mb-3">Kontak</h5>
+          <ul class="list-unstyled small opacity-75 lh-lg">
+            <li><i class="bi bi-geo-alt-fill me-2"></i> Kembangkuning, Purwakarta</li>
+            <li><i class="bi bi-telephone-fill me-2"></i> +62 264 2013 789</li>
+            <li><i class="bi bi-envelope-fill me-2"></i> dty.unit@poltektex.ac.id</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-5 pt-4 border-top border-light opacity-50 small">
+        &copy; 2026 Unit DTY Politeknik Enjinering Indorama. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
